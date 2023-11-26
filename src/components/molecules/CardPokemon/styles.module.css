@@ -1,0 +1,22 @@
+.card {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+.card:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    transform: translateYjk(-5px);
+}
+.cardImage{
+    height: 250px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.cardBody{
+    background-color: #FAFAFA;
+}
